@@ -1,0 +1,38 @@
+// const startListening = () => {
+  //   const speechConfig = SpeechConfig.fromSubscription('381cba4fbffc487e8e9b47de5887d40d', 'eastus');
+  //   const audioConfig = AudioConfig.fromDefaultMicrophoneInput();
+  //   const recognizer = new SpeechRecognizer(speechConfig, audioConfig);
+
+  //   recognizer.recognized = (s, e) => {
+  //     if (e.result.reason === ResultReason.RecognizedSpeech) {
+  //       setTranscript(e.result.text);
+  //       window.botpressWebChat.sendPayload({ type: 'text', text: e.result.text });
+  //       setIsListening(false)
+  //     } else {
+  //       console.log('No speech could be recognized.');
+  //     }
+  //   };
+
+  //   recognizer.startContinuousRecognitionAsync(
+  //     () => {
+  //       console.log('Recognition started.');
+  //       setIsListening(true);
+  //     },
+  //     (err) => {
+  //       console.error('Error starting recognition:', err);
+  //       setIsListening(false);
+  //     }
+  //   );
+
+  //   recognizer.sessionStopped = (s, e) => {
+  //     console.log('Session stopped.');
+  //     recognizer.stopContinuousRecognitionAsync();
+  //     setIsListening(false);
+  //   };
+
+  //   recognizer.canceled = (s, e) => {
+  //     console.log('Recognition canceled.');
+  //     recognizer.stopContinuousRecognitionAsync();
+  //     setIsListening(false);
+  //   };
+  // };
