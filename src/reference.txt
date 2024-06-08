@@ -1,0 +1,5 @@
+Cool. The Chatbot is there for reading fairy tales. When you Open the bot an Avatar appears and ask you immidietely what fairy tale you want to hear. Then, the user can speak to the bot without touching the smart phone. After that the bot will read the desired fairy tale. Thats it.
+
+
+
+Rapunzel
